@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VALENTINES DAY!</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://marketplace.canva.com/EAEUf1ZOyzE/1/0/1600w/canva-pink-and-red-powerful-femme-personal-pattern-valentine%27s-day-desktop-wallpaper-vyLmDobNXOc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* Responsive Heading */
+.word {
+    font-size: clamp(40px, 8vw, 90px);
+    font-family: "Gwendolyn", cursive;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    margin: 20px;
+}
+
+/* Responsive Image */
+.img {
+    width: 60%;
+    max-width: 350px;
+    height: auto;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+.img:hover {
+    content: url("opened letter (2).png");
+    transform: scale(1.05);
+}
+
+/* Extra Mobile Adjustments */
+@media (max-width: 480px) {
+    .img {
+        width: 75%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="word">Happy Valentine's Day Baby!</h1>
+
+<!-- IMPORTANT: Use relative path, not file:/// -->
+<a href="file:///C:/Users/Kiran/Desktop/Valentie's%20Website/Home/Body.html">
+    <img class="img" src="envelopelove copy.png" alt="Love Envelope">
+</a>
+
+</body>
+</html>
